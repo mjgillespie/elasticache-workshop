@@ -155,6 +155,12 @@ Select `stackname`-dashboard repository, select all the images and click delete.
 
 Select `stackname`-backend repository, select all the images and click delete.
 
+Returning to your console window, empty out the lambda deployment bucket
+
+``` bash
+$ aws s3 rm --recursive s3://$LAMBDA_DEPLOY
+```
+
 Go to the [CloudFormation Console](https://console.aws.amazon.com/cloudformation/home)
 
 Select `stackname`-ecs and select delete. Wait for this to complete.
