@@ -34,13 +34,13 @@ In the link below, provide the following information
 5. Click `Execute`
 
 Launch In:
-* [us-east-1 ![us-east-1](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
-* [us-east-2 ![us-east-2](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
-* [us-west-1 ![us-west-1](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-1#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
-* [us-west-2 ![us-west-2](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
-* [ca-central-1 ![ca-central-1](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=ca-central-1#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
-* [eu-west-1 ![eu-west-1](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
-* [eu-west-2 ![eu-west-2](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-2#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
+* us-east-1 [![us-east-1](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
+* us-east-2 [![us-east-2](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
+* us-west-1 [us-west-1 ![us-west-1](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-1#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
+* us-west-2 [![us-west-2](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
+* ca-central-1 [![ca-central-1](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=ca-central-1#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
+* eu-west-1 [![eu-west-1](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
+* eu-west-2 [![eu-west-2](/Images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-2#/stacks/create/review?stackName=elasticache-retail-dashboard&templateURL=https://s3.amazonaws.com/elasticache-retail-dashboard/template.yaml)
 
 
 After the first stack has finished, we will build the Docker images for the app and backend of the dashboard and deploy them to the ECR Repositories created by CloudFormation. First, connect to the ECR Repositories:
