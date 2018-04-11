@@ -14,7 +14,7 @@ To run the sample, you will need to:
 
 1. Select an AWS region. Regions us-east-1 (Northern Virginia), us-west-2 (Oregon) are available.
 2. An SSH client. PuTTY in windows
-3. Create an EC2 Key Pair in the region you selected. [Additional Detail](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair) YOU MUST DOWNLOAD THE PRIVATE KEY NOW. IT CAN'T BE DONE AT A LATER TIME.
+3. Create an EC2 Key Pair in the region you selected. [Detailed Instructions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair) YOU MUST DOWNLOAD THE PRIVATE KEY NOW. IT CAN'T BE DONE AT A LATER TIME.
 
 
 ## Deployment
