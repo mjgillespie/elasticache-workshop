@@ -59,6 +59,12 @@ Windows: [Click here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.
 
 Once you create the ssh connection login to ECR with the following command:
 
+Get the application code:
+``` bash
+aws s3 sync s3://elasticache-retail-dashboard/code /home/ec2-user/lab            
+```
+
+Authenticate to the docker registry
 ``` bash
 $ $(aws ecr get-login --no-include-email)
 ```
