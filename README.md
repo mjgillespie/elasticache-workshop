@@ -61,7 +61,7 @@ Once you create the ssh connection login to ECR with the following command:
 
 Get the application code:
 ``` bash
-aws s3 sync s3://elasticache-retail-dashboard/code /home/ec2-user/lab            
+$ aws s3 sync s3://elasticache-retail-dashboard/code /home/ec2-user/lab            
 ```
 
 Authenticate to the docker registry
